@@ -4,6 +4,7 @@
 # sudo -s 
 # echo "include /usr/local/lib" >> /etc/ld.so.conf
 # ldconfig 
+# sudo ldconfig
 
 yfinance>=0.1.59
 yahoo_fin>=0.8.6
