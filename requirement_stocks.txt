@@ -1,4 +1,10 @@
 # python3 -m pip install -r requirement_stocks.txt
+# https://newbedev.com/importerror-libta-lib-so-0-cannot-open-shared-object-file-no-such-file-or-directory
+# pip install --upgrade --force-reinstall TA-Lib
+# sudo -s 
+# echo "include /usr/local/lib" >> /etc/ld.so.conf
+# ldconfig 
+
 yfinance>=0.1.59
 yahoo_fin>=0.8.6
 pandas>=0.24.0
